@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.coheteGalaxia{
+    width: 80%;
+    height: 800px;
+    margin:50px auto;
+    background: url(galaxia-animacion-cohete.jpg);
+    outline: 7px solid blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation: agBlack 30s;
+}
+.coheteGalaxia img{
+    position: absolute;
+    left: 30px;
+    bottom:0;
+    width: 30px;
+    animation: cohetito 30s 1 ease-out alternate;
+}
+@keyframes cohetito{
+   0%{
+    left: 30px;
+    bottom:0;
+    opacity: 1;
+   }
+   10%{
+    transform: translateY(-100px); 
+    opacity: 0.9;
+   }
+   15%{
+    transform:translate(15px ,-151px);
+   }
+    20%{
+    transform: translate( 15px , -301px);
+   } 
+   22%{
+    transform: translate(20px , -350px);
+   }
+   25%{
+    transform: translate(30px ,-420px);
+   }
+   30%{
+     transform: translate(45px , -510px) rotate(90deg) ;
+   }
+    35%{
+    transform: translate(100px , -510px)  rotate(90deg); 
+   } 
+   37%{
+    transform: translate(100px , -540px)  rotate(0deg); ;
+   }
+   40%{
+    transform: translate(100px , -570px)  rotate(0deg); 
+   }
+   42%{
+    transform: translate(130px , -570px)  rotate(20deg);
+   }
+   45%{
+    transform: translate(130px , -645px)  rotate(20deg);
+   }
+   47%{
+     transform:translate(300px , -645px)  rotate(90deg); ;
+   }
+    50%{
+    transform:translate(610px , -645px)  rotate(90deg); ;
+   } 
+   55%{
+    transform:translate(610px , -545px)  rotate(180deg);
+   }
+   60%{
+    transform:translate(645px , -545px)  rotate(90deg);
+   }
+   65%{
+    transform:translate(645px , -425px)  rotate(180deg);
+   }
+   67%{
+    transform:translate(590px , -425px)  rotate(-90deg);
+   }
+   70%{
+    transform:translate(590px , -320px)  rotate(180deg);
+   }
+    75%{
+    transform:translate(500px , -300px)  rotate(-90deg);
+   }
+    80%{
+    transform:translate(450px , -320px)  rotate(0deg);
+   }
+   90%{
+    transform:translate(450px , -350px)  rotate(0deg);
+   }
+   95%{
+    transform: translate(450px , -370px)  rotate(0deg) scale(2.5) rotate(1800deg);
+   }
+   96%{
+    transform: translate(510px , -370px)  rotate(90deg) scale(2) rotate(1800deg);
+    opacity: 0.7;
+   }
+   97%{
+    transform: translate(510px , -370px)  rotate(90deg) scale(1) rotate(1800deg);
+    opacity: 0.5;
+   }
+   99%{
+    transform: translate(550px , -340px)  rotate(90deg) scale(0.5) rotate(1800deg);
+    opacity: 0.4;
+   }
+   100%{
+    transform: translate(600px , -340px)  rotate(90deg) scale(0) rotate(1800deg);
+    opacity: 0;
+   }
+}
+@keyframes agBlack {
+    0%{
+        background: url(galaxia-animacion-cohete.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    10%{
+        background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       15%{
+       background: url(galaxia-animacion-cohete.jpg);
+   background-repeat: no-repeat;
+       background-size: cover;
+       }
+        20%{
+      background: url(galaxia-animacion-cohete.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+       } 
+       22%{
+     background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+        }
+        25%{
+      background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       30%{
+        background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       35%{
+        background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       } 
+       37%{
+       background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       40%{
+       background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       42%{
+       background: url(galaxia-animacion-cohete.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       }
+       45%{
+        background: url(galaxia-animacion-cohete.jpg);
+        background-repeat: no-repeat;
+       background-size: cover;
+       }
+       47%{
+       background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+        50%{
+      background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       } 
+       55%{
+      background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       60%{
+      background: url(galaxia-animacion-cohete.jpg);
+        background-repeat: no-repeat;
+       background-size: cover;
+       }
+       65%{
+     background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       67%{
+      background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       70%{
+      background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+        75%{
+      background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+        80%{
+    background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       90%{
+      background: url(galaxia-animacion-cohete.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       95%{
+       background: url(Simulación-de-un-agujero-negro.jpg);
+background-repeat: no-repeat;
+       background-size: cover;
+       }
+       97%{
+        background: url(Simulación-de-un-agujero-negro.jpg);
+        background-repeat: no-repeat;
+               background-size: cover;
+       }
+       99%{
+        background: url(Simulación-de-un-agujero-negro.jpg);
+        background-repeat: no-repeat;
+               background-size: cover;
+       }
+       100%{
+        background: url(Simulación-de-un-agujero-negro.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+        /*
+        Concluciones:
+        si trasform translate es 0 , es su punto original
+        si queres que se mantenga a su posion y no haga cosas raras , no repitas transform varias veces(obviamente) y ponele la otra propeiad al lado y sin la "," o "coma" 
+        */
+}
+
